@@ -1,12 +1,16 @@
 body{
-    font-family: "微软雅黑","宋体","Arial Narrow";
+    font-family: "宋体","Arial Narrow";
     background: url(about:blank);
     _background-attachment:fixed;
 }
 
+.left{
+    float: left;
+}
+
 a:link {color: #666;}
 a:visited {color: #666;}
-a:hover {color: #d11f13}
+a:hover {color: #ba2636}
 a:active {color: #666;}
 
 .clearfix:after {
@@ -36,20 +40,32 @@ a:active {color: #666;}
     display: block;
 }
 
-/*container部分*/
-.container{
-    width: 960px;
-    margin: -2px auto 0;
-    *margin: 8px auto 0;
-}
-/*channelLogo部分*/
-.channelLogo img{
+.ad a img{
     display: block;
 }
 
-.channelLogo a{
-    float: left;
+/*container部分*/
+.container{
+    width: 960px;
+    margin: 8px auto 0;
 }
+
+
+
+/*channelLogo部分*/
+
+.channelLogo img{
+    display: block;
+    width: 100px;
+    height: 40px;
+}
+
+
+.channelLogo a:link{color: #222}
+.channelLogo a:visited{color: #222}
+.channelLogo a:hover{color: #ba2636}
+.channelLogo a:active{color: #222}
+
 
 .channelLogo div{
     color: #666;
@@ -57,12 +73,14 @@ a:active {color: #666;}
     float: left;
     height: 15px;
     line-height: 15px;
+    display: inline;
 }
 
 /*channelNav部分*/
 .channelNav{
     background: url(../pic/channelNav_bg.png) repeat-x;
     margin-top: 8px;
+    font-family: "微软雅黑";
 }
 
 .channelNav ul{
@@ -86,7 +104,7 @@ a:active {color: #666;}
     color: #fff;
 }
 .channelNav li a:hover{
-    color: #d11f13;
+    color: #fff;
 }
 .channelNav li a:active{
     color: #fff;
@@ -95,6 +113,11 @@ a:active {color: #666;}
 /*scheme部分*/
 .scheme{
     margin: 10px 0;
+}
+
+.scheme img{
+    width: 960px;
+    height: 145px;
 }
 
 /*same部分*/
@@ -146,6 +169,11 @@ a:active {color: #666;}
 .same .list li a{
     color: #000000;
     display: block;
+}
+
+.same .list li a img{
+    width: 170px;
+    height: 132px;
 }
 
 .same .list li span{
