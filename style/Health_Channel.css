@@ -1,5 +1,5 @@
 body{
-    font-family: "宋体","Arial Narrow";
+    font-family: "微软雅黑","宋体","Arial Narrow";
     background: url(about:blank);
     _background-attachment:fixed;
 }
@@ -10,7 +10,7 @@ body{
 
 a:link {color: #666;}
 a:visited {color: #666;}
-a:hover {color: #ba2636}
+a:hover {color: #bd0a01}
 a:active {color: #666;}
 
 .clearfix:after {
@@ -63,7 +63,7 @@ a:active {color: #666;}
 
 .channelLogo a:link{color: #222}
 .channelLogo a:visited{color: #222}
-.channelLogo a:hover{color: #ba2636}
+.channelLogo a:hover{color: #bd0a01}
 .channelLogo a:active{color: #222}
 
 
@@ -78,7 +78,7 @@ a:active {color: #666;}
 
 /*channelNav部分*/
 .channelNav{
-    background: url(../pic/channelNav_bg.png) repeat-x;
+    background: url(../image/channelNav_bg.png) repeat-x;
     margin-top: 8px;
     font-family: "微软雅黑";
 }
@@ -133,7 +133,7 @@ a:active {color: #666;}
     margin-top: 8px;
     padding-right: 37px;
     height: 40px;
-    background: url(../pic/same_title_bg.png) no-repeat;
+    background: url(../image/same_title_bg.png) no-repeat;
 }
 
 .same .title h2{
